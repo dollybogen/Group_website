@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Plan on PINKPIG</title>
+        <link>http://localhost:1313/Group_website/categories/plan/</link>
+        <description>Recent content in Plan on PINKPIG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>dolly</copyright>
+        <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/plan/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Project Use Case Diagram and Module Division</title>
+        <link>http://localhost:1313/Group_website/p/ui-design-milestone-plan/</link>
+        <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/ui-design-milestone-plan/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/ui-design-milestone-plan/%E7%8F%8A%E7%91%9A%E5%AE%AB%E5%BF%83%E6%B5%B7-111411626.png" alt="Featured image of post Project Use Case Diagram and Module Division" /&gt;&lt;h1 id=&#34;project-milestone-plan&#34;&gt;Project Milestone Plan
+&lt;/h1&gt;&lt;h2 id=&#34;milestone-1-requirement-definition-and-framework-design-1-week&#34;&gt;Milestone 1: Requirement Definition and Framework Design (1 week)
+&lt;/h2&gt;&lt;h3 id=&#34;core-task&#34;&gt;Core Task:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Complete a dual-dimensional user profile of medical personnel/patients (including interview records)&lt;/li&gt;
+&lt;li&gt;Determine which data needs to be analyzed as input&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;deliverables&#34;&gt;Deliverables:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;User Requirements Document&lt;/li&gt;
+&lt;li&gt;Input Requirement Document&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;milestone-2-prototype-development-of-core-interface-1-week&#34;&gt;Milestone 2: Prototype Development of Core Interface (1 week)
+&lt;/h2&gt;&lt;h3 id=&#34;core-task-1&#34;&gt;Core Task:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Determine the interface interaction logic and the framework of each interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;deliverables-1&#34;&gt;Deliverables:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Interaction Design Manual&lt;/li&gt;
+&lt;li&gt;Interface Draft&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;milestone-3-high-fidelity-design-system-construction-2-weeks&#34;&gt;Milestone 3: High-Fidelity Design System Construction (2 weeks)
+&lt;/h2&gt;&lt;h3 id=&#34;core-task-2&#34;&gt;Core Task:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Create a medical-grade color system (compliant with HIPAA visualization standards)&lt;/li&gt;
+&lt;li&gt;Develop a dynamic data component library (extensible D3.js chart template)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;deliverables-2&#34;&gt;Deliverables:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;High-Fidelity Design Draft (Figma file)&lt;/li&gt;
+&lt;li&gt;Design System Documentation (including Dark Mode specification)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;milestone-4-development-collaboration-and-delivery-3-weeks&#34;&gt;Milestone 4: Development Collaboration and Delivery (3 weeks)
+&lt;/h2&gt;&lt;h3 id=&#34;core-task-3&#34;&gt;Core Task:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Develop UI interface system&lt;/li&gt;
+&lt;li&gt;Implement design review workflow (Storybook integration)&lt;/li&gt;
+&lt;li&gt;Build a sensor data simulator (simulating 20 pathological state data)&lt;/li&gt;
+&lt;li&gt;Create a design handover document (including variable naming conventions)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;deliverables-3&#34;&gt;Deliverables:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Development-Ready Resource Package (SVG/PDF specification sheet)&lt;/li&gt;
+&lt;li&gt;User Testing Video Recording&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

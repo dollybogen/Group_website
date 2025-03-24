@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Requirements on PINKPIG</title>
+        <link>http://localhost:1313/Group_website/categories/requirements/</link>
+        <description>Recent content in Requirements on PINKPIG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>dolly</copyright>
+        <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/requirements/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Analysis of Patient UI Requirements</title>
+        <link>http://localhost:1313/Group_website/p/analysis-of-patient-ui-requirements/</link>
+        <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/analysis-of-patient-ui-requirements/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/analysis-of-patient-ui-requirements/%E5%9B%BE%E7%89%871.png" alt="Featured image of post Analysis of Patient UI Requirements" /&gt;&lt;h1 id=&#34;analysis-of-patient-ui-requirements&#34;&gt;Analysis of Patient UI Requirements
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/analysis-of-patient-ui-requirements/%E5%9B%BE%E7%89%871.png&#34;
+	width=&#34;683&#34;
+	height=&#34;582&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/analysis-of-patient-ui-requirements/%E5%9B%BE%E7%89%871_hu1311090178465499608.png 480w, http://localhost:1313/Group_website/Group_website/p/analysis-of-patient-ui-requirements/%E5%9B%BE%E7%89%871_hu3960923562669876335.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;System Architecture Diagram&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;117&#34;
+		data-flex-basis=&#34;281px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-device-pairing-page&#34;&gt;1. Device Pairing Page
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt;&lt;br&gt;
+Guide users to complete Bluetooth pairing between sensors and mobile devices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Elements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Title Bar:&lt;/strong&gt; Display &amp;ldquo;Device Pairing&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step Indicator:&lt;/strong&gt; Show the different steps of the pairing process (e.g., turning on Bluetooth, selecting a device, completing pairing).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Buttons:&lt;/strong&gt; Include &amp;ldquo;Refresh Device List&amp;rdquo; and &amp;ldquo;Start Pairing&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-measurement-preparation-page&#34;&gt;2. Measurement Preparation Page
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt;&lt;br&gt;
+Guide users to correctly wear sensors and enter measurement mode.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Elements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Animation Demonstration:&lt;/strong&gt; Show how to correctly fix the sensor on the lower limb joint using simple animated illustrations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reminder:&lt;/strong&gt; Short text explanation of wearing instructions and precautions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Start Button:&lt;/strong&gt; A large and prominent &amp;ldquo;Start Measurement&amp;rdquo; button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-real-time-data-display-page&#34;&gt;3. Real-Time Data Display Page
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt;&lt;br&gt;
+Real-time display of lower limb movement status, including angle changes, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Elements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;3D Model:&lt;/strong&gt; Simulate lower limb movements and visually reflect the angle of the current action.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Value Display Area:&lt;/strong&gt; Show the specific value of the current joint angle.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trend Chart:&lt;/strong&gt; Display the recent trend of angle changes in the form of a line chart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-results-feedback-page&#34;&gt;4. Results Feedback Page
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt;&lt;br&gt;
+Provide instant feedback based on measurement results.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Elements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scoring System:&lt;/strong&gt; Score the effectiveness of this training based on rehabilitation criteria.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Suggestion Tip:&lt;/strong&gt; If the expected goals are not achieved, provide suggestions or adjustment plans.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Share Button:&lt;/strong&gt; Allow users to easily share the results of this training with medical personnel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5-history-page&#34;&gt;5. History Page
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt;&lt;br&gt;
+View all past measurement records.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Elements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Timeline View:&lt;/strong&gt; Arrange all historical records by date.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quick Preview:&lt;/strong&gt; Click on any record to view detailed data and feedback for that training session.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
