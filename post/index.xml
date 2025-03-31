@@ -7,7 +7,186 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>dolly</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Module-wise requirement analysis  documentation</title>
+        <link>http://localhost:1313/Group_website/p/module-wise-requirement-analysis-documentation/</link>
+        <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/module-wise-requirement-analysis-documentation/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%876.png" alt="Featured image of post Module-wise requirement analysis  documentation" /&gt;&lt;h1 id=&#34;module-wise-requirement-analysis-documentation&#34;&gt;Module-wise Requirement Analysis Documentation
+&lt;/h1&gt;&lt;h2 id=&#34;patient-ui-requirements-analysis&#34;&gt;Patient UI Requirements Analysis
+&lt;/h2&gt;&lt;h3 id=&#34;login-page&#34;&gt;Login Page
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt; Ensures only authorized patients can access the system.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Element:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Login form&lt;/strong&gt;: Enter username and password fields.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%871.png&#34;
+	width=&#34;602&#34;
+	height=&#34;760&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%871_hu14477351597454446092.png 480w, http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%871_hu3627702370082579036.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;79&#34;
+		data-flex-basis=&#34;190px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;doctor-ui-requirements-analysis&#34;&gt;Doctor UI Requirements Analysis
+&lt;/h2&gt;&lt;h3 id=&#34;1-login-page&#34;&gt;1. Login Page
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt; Ensure that only authorized doctors can access the system.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Element:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Login form&lt;/strong&gt;: Enter username and password fields.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-patient-management-page&#34;&gt;2. Patient Management Page
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt; Manage and view the list of patients you are responsible for and their basic information.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Element:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create Patient&lt;/strong&gt;: Create a new patient.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search bar&lt;/strong&gt;: Quickly find a specific patient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%872.png&#34;
+	width=&#34;602&#34;
+	height=&#34;283&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%872_hu427924256968068361.png 480w, http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%872_hu10451464891964450937.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;212&#34;
+		data-flex-basis=&#34;510px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-patient-details-page&#34;&gt;3. Patient Details Page
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt; In-depth review of each patient&amp;rsquo;s detailed health information and recovery progress, store user&amp;rsquo;s historical records and data analysis results, and generate visual reports based on historical records.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Element:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Patient card&lt;/strong&gt;: Each card contains the patient&amp;rsquo;s photo, name, age, latest recovery progress, and lists underlying diseases, allergy history, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Storing history records&lt;/strong&gt;: Used to obtain history records.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create new records&lt;/strong&gt;: Used for subsequent new data generation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Obtain visual reports and historical analysis&lt;/strong&gt;: Generate visual information such as charts, comparative analysis, etc., based on rehabilitation data in the historical records to assist doctors in decision-making.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%873.png&#34;
+	width=&#34;616&#34;
+	height=&#34;205&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%873_hu7753551324177424321.png 480w, http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%873_hu15351702721530444233.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;300&#34;
+		data-flex-basis=&#34;721px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%874.png&#34;
+	width=&#34;602&#34;
+	height=&#34;470&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%874_hu16022842180592185403.png 480w, http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%874_hu1792245215883319126.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;128&#34;
+		data-flex-basis=&#34;307px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%875.png&#34;
+	width=&#34;602&#34;
+	height=&#34;337&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%875_hu1017733852585873135.png 480w, http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%875_hu15638839300489680284.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;428px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4-measurement-preparation-page&#34;&gt;4. Measurement Preparation Page
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt; The user wears the sensor correctly and enters the measurement mode.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Element:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Animation Demonstration&lt;/strong&gt;: A simple animation diagram shows how to correctly fix the sensor on the lower limb joint.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tips&lt;/strong&gt;: Brief text description of wearing points and precautions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Start Button&lt;/strong&gt;: Large, obvious &amp;ldquo;Start Measuring&amp;rdquo; button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%876.png&#34;
+	width=&#34;1089&#34;
+	height=&#34;588&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%876_hu7105867777906534501.png 480w, http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%876_hu10960220096255110787.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;185&#34;
+		data-flex-basis=&#34;444px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;5-real-time-data-display-page&#34;&gt;5. Real-time Data Display Page
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt; Real-time display of lower limb movement status, including angle changes, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Element:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;3D model&lt;/strong&gt;: Simulates lower limb movement and intuitively reflects the angle of the current movement.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Numerical display area&lt;/strong&gt;: Displays the specific value of the current joint angle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;6-result-feedback-page&#34;&gt;6. Result Feedback Page
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt; Analyzes measurement result data using advanced algorithms and provides immediate rehabilitation recommendations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Element:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Suggestions&lt;/strong&gt;: If the expected goal is not achieved, provide suggestions or adjust the plan. The suggestions come from the doctor combined with the measurement results.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data analysis report&lt;/strong&gt;: Summarizes recent rehabilitation achievements and existing problems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recovery progress chart&lt;/strong&gt;: Shows the patient&amp;rsquo;s recovery progress.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%877.png&#34;
+	width=&#34;1065&#34;
+	height=&#34;735&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%877_hu6070247576128903491.png 480w, http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%877_hu17412625282982862749.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;347px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;7-database-comparison&#34;&gt;7. Database Comparison
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt; Provide a standard database for medical staff to compare data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%878.png&#34;
+	width=&#34;602&#34;
+	height=&#34;297&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%878_hu1837240016050898938.png 480w, http://localhost:1313/Group_website/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%878_hu6466790352665227779.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;202&#34;
+		data-flex-basis=&#34;486px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Website update log-2</title>
+        <link>http://localhost:1313/Group_website/p/website-update-log-2/</link>
+        <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/website-update-log-2/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/website-update-log-2/02227-2559485279-best-.png" alt="Featured image of post Website update log-2" /&gt;&lt;p&gt;I have uploaded the Module wise requirement analysis documentation page&lt;/p&gt;
+&lt;p&gt;The modification of the Gantt chart has failed. The message contains markdown encoding, making it impossible to draw the Gantt chart and use the HTML plugin&lt;/p&gt;
+&lt;p&gt;The transformation of the external Gantt chart failed. The external HTML is global code, and modifying it would result in manually crossing the Gantt chart every time it is clicked, which is unacceptable&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Website update log-1</title>
         <link>http://localhost:1313/Group_website/p/website-update-log-1/</link>
         <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>

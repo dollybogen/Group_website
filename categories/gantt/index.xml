@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Gantt on PINKPIG</title>
+        <link>http://localhost:1313/Group_website/categories/gantt/</link>
+        <description>Recent content in Gantt on PINKPIG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>dolly</copyright>
+        <lastBuildDate>Sun, 30 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/gantt/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Gantt Chart</title>
+        <link>http://localhost:1313/Group_website/p/gantt-chart/</link>
+        <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/gantt-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/gantt-chart/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2.png" alt="Featured image of post Gantt Chart" /&gt;&lt;p&gt;gantt
+title Project Milestone Plan
+dateFormat  YYYY-MM-DD
+section Milestone 1: Requirement Definition and Framework Design
+Complete user profile and input data analysis  :done, m1_task1, 2025-04-01, 7d
+Deliverables: User &amp;amp; Input Requirement Docs     :done, m1_deliverables, after m1_task1, 0d&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;section Milestone 2: Prototype Development of Core Interface
+Define interaction logic and interface framework :active, m2_task1, 2025-04-08, 7d
+Deliverables: Interaction Design &amp;amp; Interface Draft :m2_deliverables, after m2_task1, 0d
+
+section Milestone 3: High-Fidelity Design System Construction
+Create medical-grade color system and data library :m3_task1, 2025-04-15, 14d
+Deliverables: High-Fidelity Design Draft &amp;amp; Documentation :m3_deliverables, after m3_task1, 0d
+
+section Milestone 4: Development Collaboration and Delivery
+Develop UI system and review workflow    :m4_task1, 2025-04-29, 21d
+Build sensor data simulator and design handover doc :m4_task2, after m4_task1, 0d
+Deliverables: Resource Package &amp;amp; Testing Video   :m4_deliverables, after m4_task2, 0d
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

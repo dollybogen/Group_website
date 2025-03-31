@@ -7,7 +7,18 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>dolly</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/website/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/website/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Website update log-2</title>
+        <link>http://localhost:1313/Group_website/p/website-update-log-2/</link>
+        <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/website-update-log-2/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/website-update-log-2/02227-2559485279-best-.png" alt="Featured image of post Website update log-2" /&gt;&lt;p&gt;I have uploaded the Module wise requirement analysis documentation page&lt;/p&gt;
+&lt;p&gt;The modification of the Gantt chart has failed. The message contains markdown encoding, making it impossible to draw the Gantt chart and use the HTML plugin&lt;/p&gt;
+&lt;p&gt;The transformation of the external Gantt chart failed. The external HTML is global code, and modifying it would result in manually crossing the Gantt chart every time it is clicked, which is unacceptable&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Website update log-1</title>
         <link>http://localhost:1313/Group_website/p/website-update-log-1/</link>
         <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
