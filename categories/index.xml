@@ -7,10 +7,18 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>dolly</copyright>
-        <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Excel</title>
+        <link>http://localhost:1313/Group_website/categories/excel/</link>
+        <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/categories/excel/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Requirements</title>
         <link>http://localhost:1313/Group_website/categories/requirements/</link>
-        <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/Group_website/categories/requirements/</guid>
         <description></description>

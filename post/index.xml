@@ -7,7 +7,182 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>dolly</copyright>
-        <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Internal Requirements Analysis Document</title>
+        <link>http://localhost:1313/Group_website/p/website-update-log-2/</link>
+        <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/website-update-log-2/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/website-update-log-2/948d12a2944e9ac3219ff75ba3a4b57.png" alt="Featured image of post Internal Requirements Analysis Document" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/website-update-log-2/948d12a2944e9ac3219ff75ba3a4b57.png&#34;
+	width=&#34;1535&#34;
+	height=&#34;1072&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/website-update-log-2/948d12a2944e9ac3219ff75ba3a4b57_hu7551119525310632070.png 480w, http://localhost:1313/Group_website/Group_website/p/website-update-log-2/948d12a2944e9ac3219ff75ba3a4b57_hu8231049472046392042.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;System Design&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;343px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;internal-requirements-analysis-document&#34;&gt;Internal Requirements Analysis Document
+&lt;/h1&gt;&lt;h2 id=&#34;1-overview&#34;&gt;1. Overview
+&lt;/h2&gt;&lt;p&gt;This document provides a detailed description of the specific responsibilities, requirements, and interactions among the various teams (UI, System, Data, Analysis), ensuring smooth project progression and promoting effective communication and collaboration among team members.&lt;/p&gt;
+&lt;h2 id=&#34;2-team-responsibilities-overview&#34;&gt;2. Team Responsibilities Overview
+&lt;/h2&gt;&lt;h3 id=&#34;21-ui-team&#34;&gt;2.1 UI Team
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Main Responsibilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Login Page:&lt;/strong&gt; Provide a secure login interface for patients and doctors.
+&lt;ul&gt;
+&lt;li&gt;Login Form: Username/password fields; consider using phone number + verification code mode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Registration Information Function:&lt;/strong&gt; Collect basic patient information, including but not limited to name, gender, and age.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Patient Management Page:&lt;/strong&gt; Enable doctors to view and manage their list of patients and their basic information.
+&lt;ul&gt;
+&lt;li&gt;Features include creating new patients and a search bar supporting multi-criteria queries (e.g., patient name, ID, surgery type, etc.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measurement Preparation Page:&lt;/strong&gt; Guide users on proper sensor placement through animated demonstrations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Data Display Page:&lt;/strong&gt; Show lower limb movement status, including angle changes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result Feedback Page:&lt;/strong&gt; Analyze measurement results using advanced algorithms and provide immediate rehabilitation suggestions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;22-system-team&#34;&gt;2.2 System Team
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Main Responsibilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Build &amp;amp; Deployment Process:&lt;/strong&gt; Implement automated CI/CD processes to enhance development efficiency and system stability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Third-Party Service Integration:&lt;/strong&gt; Evaluate, select, and integrate suitable third-party services for the project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaborative Database Development:&lt;/strong&gt; Work with the Data Team to review database design proposals and optimize performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Design &amp;amp; Implementation:&lt;/strong&gt; Define API standards, implement all backend API functionalities, and generate comprehensive API documentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Optimization:&lt;/strong&gt; Conduct regular performance testing, identify bottlenecks, and implement solutions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security Assurance:&lt;/strong&gt; Implement user authentication mechanisms, encrypt sensitive data for storage and transmission.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitoring &amp;amp; Logging System:&lt;/strong&gt; Design key monitoring metrics and implement a comprehensive log collection mechanism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;23-data-team&#34;&gt;2.3 Data Team
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Main Responsibilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Module:&lt;/strong&gt; Cover all processes from device startup to data analysis.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Collection:&lt;/strong&gt; Initialize sensors and start data acquisition.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Upload:&lt;/strong&gt; Upload collected data to the cloud.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Cleaning &amp;amp; Filtering:&lt;/strong&gt; Set reasonable joint angle thresholds to remove abnormal data; use linear interpolation to compensate for missing values.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database CRUD Operations:&lt;/strong&gt; Perform Create, Read, Update, and Delete operations on patient rehabilitation data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database Management:&lt;/strong&gt; Responsible for database schema design, version management, and data migration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;24-analysis-team&#34;&gt;2.4 Analysis Team
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Main Responsibilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Receive Raw Data:&lt;/strong&gt; Obtain pre-processed sensor data from the Data Team.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deviation Analysis &amp;amp; Anomaly Labeling:&lt;/strong&gt; Filter invalid sensor IDs, remove outliers, compute sliding window averages, and determine whether values exceed standard thresholds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Structured Result Return:&lt;/strong&gt; Send analysis results in JSON format to the Data Team for storage, and push real-time results to the UI Team.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-team-interaction-details&#34;&gt;3. Team Interaction Details
+&lt;/h2&gt;&lt;h3 id=&#34;31-data-team--analysis-team&#34;&gt;3.1 Data Team &amp;amp; Analysis Team
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Data Transmission Process:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Team:&lt;/strong&gt; Collects motion data from rehabilitation devices (e.g., timestamps, sensor IDs, angle information) and transfers it to the Analysis Team via API.
+&lt;ul&gt;
+&lt;li&gt;Data Format Requirements: Must conform to a specific format (e.g., &lt;code&gt;collection_time&lt;/code&gt;, &lt;code&gt;sensor_id&lt;/code&gt;, &lt;code&gt;pitch_angle&lt;/code&gt;, &lt;code&gt;roll_angle&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Data Quality Requirements: Sampling frequency ≥ 5Hz; daily data loss rate &amp;lt; 10%.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analysis Team:&lt;/strong&gt; Processes received data (e.g., filter invalid IDs, remove outliers), calculates sliding window averages, determines threshold violations, and marks anomalies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;32-analysis-team--ui-team&#34;&gt;3.2 Analysis Team &amp;amp; UI Team
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Real-Time Feedback &amp;amp; Visualization:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Analysis Team:&lt;/strong&gt; Sends real-time analysis results to the UI Team every second via HTTP GET (endpoint: &lt;code&gt;/api/realtime&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI Team:&lt;/strong&gt; Generates user-friendly charts and reports based on the received data to assist doctors in making informed decisions. Features include creating new records, generating visual reports, and accessing historical analyses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;33-system-team--other-teams&#34;&gt;3.3 System Team &amp;amp; Other Teams
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Build &amp;amp; Deployment Process:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;System Team:&lt;/strong&gt; Provides CI/CD configuration files, deployment scripts, and documentation to ensure all teams can deploy their code smoothly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Other Teams:&lt;/strong&gt; Use the provided tools for code deployment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Third-Party Service Integration:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;System Team:&lt;/strong&gt; Evaluates, selects, and integrates suitable third-party services and provides standardized interfaces.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UI &amp;amp; Analysis Teams:&lt;/strong&gt; Use third-party service interfaces encapsulated by the System Team.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Collaborative Database Development:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;System Team:&lt;/strong&gt; Designs data access layers and optimizes database performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Team:&lt;/strong&gt; Designs the database schema, manages versions, and handles migrations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Joint Review:&lt;/strong&gt; Regularly sync development progress and issues to ensure database consistency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;API Design &amp;amp; Implementation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;System Team:&lt;/strong&gt; Establishes API standards, implements all backend APIs, and generates documentation (e.g., Swagger/OpenAPI).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Other Teams:&lt;/strong&gt; Participate in discussions on API specifications and use the documented APIs in development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;34-ui-team--other-teams&#34;&gt;3.4 UI Team &amp;amp; Other Teams
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Measurement Preparation Page:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UI Team:&lt;/strong&gt; Guides users with animation on sensor placement and provides prompts and a &amp;ldquo;Start Measurement&amp;rdquo; button.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Team:&lt;/strong&gt; Initializes sensors and begins data acquisition.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Real-Time Data Display Page:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UI Team:&lt;/strong&gt; Displays lower limb movement, including angle changes (e.g., 3D model simulations and numeric display of current joint angles).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Team:&lt;/strong&gt; Provides the real-time data stream.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Result Feedback Page:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UI Team:&lt;/strong&gt; Shows analysis results and provides real-time rehabilitation suggestions using advanced algorithms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analysis Team:&lt;/strong&gt; Supplies analysis reports, summarizing recent rehabilitation progress and issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-detailed-requirements&#34;&gt;4. Detailed Requirements
+&lt;/h2&gt;&lt;h3 id=&#34;41-data-format-requirements&#34;&gt;4.1 Data Format Requirements
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Field Descriptions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;collection_time&lt;/code&gt;: Timestamp of data collection, accurate to the second.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sensor_id&lt;/code&gt;: Sensor identifier, format like &lt;code&gt;left_1&lt;/code&gt; or &lt;code&gt;right_2&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pitch_angle&lt;/code&gt;: Forward/backward swing angle, range [-90°, 90°].&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;roll_angle&lt;/code&gt;: Left/right tilt angle, range [-180°, 180°].&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;42-data-quality-requirements&#34;&gt;4.2 Data Quality Requirements
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sampling Frequency:&lt;/strong&gt; ≥ 5Hz, with ±30% variation allowed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Completeness:&lt;/strong&gt; Daily data loss rate &amp;lt; 10%, missing data should be marked with &lt;code&gt;&amp;quot;error_type&amp;quot;: &amp;quot;missing&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;43-performance-optimization&#34;&gt;4.3 Performance Optimization
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Involved Team:&lt;/strong&gt; System Team&lt;br&gt;
+&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Regularly conduct performance tests to identify and resolve bottlenecks.&lt;/li&gt;
+&lt;li&gt;Collaborate with the Data Team to optimize database performance and adjust system architecture if necessary.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;44-security-assurance&#34;&gt;4.4 Security Assurance
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Involved Team:&lt;/strong&gt; System Team&lt;br&gt;
+&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Define system security policies and standards, implement user authentication mechanisms.&lt;/li&gt;
+&lt;li&gt;Encrypt sensitive data for storage and transmission, conduct regular security audits and vulnerability scans.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;45-monitoring--logging-system&#34;&gt;4.5 Monitoring &amp;amp; Logging System
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Involved Team:&lt;/strong&gt; System Team&lt;br&gt;
+&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Design key monitoring metrics and implement a comprehensive logging mechanism.&lt;/li&gt;
+&lt;li&gt;Configure appropriate alerting rules and create intuitive visualization dashboards.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>UI Requirement Components</title>
+        <link>http://localhost:1313/Group_website/p/ui-requirement-components/</link>
+        <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/ui-requirement-components/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/ui-requirement-components/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2.png" alt="Featured image of post UI Requirement Components" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;./%e6%82%a3%e8%80%85%e5%92%8c%e5%8c%bb%e6%8a%a4%e9%9c%80%e6%b1%82%282%29.xlsx&#34; &gt;Click to download Excel file&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Module-wise requirement analysis  documentation</title>
         <link>http://localhost:1313/Group_website/p/module-wise-requirement-analysis-documentation/</link>
         <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
