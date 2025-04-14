@@ -7,7 +7,86 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>dolly</copyright>
-        <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Change of demand summary diagram</title>
+        <link>http://localhost:1313/Group_website/p/change-of-demand-summary-diagram/</link>
+        <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/change-of-demand-summary-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/change-of-demand-summary-diagram/09f3c7788a6c7352cd5258dabd4d8c8.png" alt="Featured image of post Change of demand summary diagram" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/change-of-demand-summary-diagram/09f3c7788a6c7352cd5258dabd4d8c8.png&#34;
+	width=&#34;2302&#34;
+	height=&#34;730&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/change-of-demand-summary-diagram/09f3c7788a6c7352cd5258dabd4d8c8_hu11943805521126516901.png 480w, http://localhost:1313/Group_website/Group_website/p/change-of-demand-summary-diagram/09f3c7788a6c7352cd5258dabd4d8c8_hu13463931595963820830.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;requirement summary diagram&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;315&#34;
+		data-flex-basis=&#34;756px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The API is too broad, so it is simply written as&amp;rsquo; storing user information &amp;lsquo;. Collecting and registering basic information for the UI group can be achieved through a database, while other information depends on the data group and algorithm group&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remove &amp;ldquo;real-time&amp;rdquo; feedback&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Internal arrows indicate data support for the next function&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Doctor administrator adds another function: modification of doctor basic information&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Call is a supplementary explanation when called, and translation issues cannot be used to create new instances&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add a patient&amp;rsquo;s feedback: Connect a wire from the patient to the feedback interface&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Connect the patient management page to CI/CD&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The third-party service is currently unavailable and has been deleted&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CI/CD stands for Continuous Integration/Continuous Delivery&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Include means to call, extend means to be implemented&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The System Performance Optimization case has been deleted&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>Process diagram design</title>
+        <link>http://localhost:1313/Group_website/p/process-diagram-design/</link>
+        <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/process-diagram-design/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/process-diagram-design/bd44437034e12182ed41b094f4f15af.png" alt="Featured image of post Process diagram design" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/process-diagram-design/bd44437034e12182ed41b094f4f15af.png&#34;
+	width=&#34;1203&#34;
+	height=&#34;1239&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/process-diagram-design/bd44437034e12182ed41b094f4f15af_hu5367280632426817082.png 480w, http://localhost:1313/Group_website/Group_website/p/process-diagram-design/bd44437034e12182ed41b094f4f15af_hu17032817766568301341.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Process diagram design&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;97&#34;
+		data-flex-basis=&#34;233px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>requirement summary diagram</title>
         <link>http://localhost:1313/Group_website/p/requirement-summary-diagram/</link>
         <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
