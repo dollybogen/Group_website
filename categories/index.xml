@@ -7,7 +7,31 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>dolly</copyright>
-        <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Demo</title>
+        <link>http://localhost:1313/Group_website/categories/demo/</link>
+        <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/categories/demo/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Gantt</title>
+        <link>http://localhost:1313/Group_website/categories/gantt/</link>
+        <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/categories/gantt/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Requirements</title>
+        <link>http://localhost:1313/Group_website/categories/requirements/</link>
+        <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/categories/requirements/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Bluetooth</title>
         <link>http://localhost:1313/Group_website/categories/bluetooth/</link>
         <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
@@ -45,14 +69,6 @@
         <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/Group_website/categories/excel/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Requirements</title>
-        <link>http://localhost:1313/Group_website/categories/requirements/</link>
-        <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/Group_website/categories/requirements/</guid>
         <description></description>
         </item>
         <item>

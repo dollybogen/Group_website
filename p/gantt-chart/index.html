@@ -10,10 +10,10 @@
 <meta property='og:description' content="">
 <meta property='og:url' content='http://localhost:1313/Group_website/p/gantt-chart/'>
 <meta property='og:site_name' content='PINKPIG'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-03-30T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-03-30T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/Group_website/p/gantt-chart/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-04-20T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/Group_website/p/gantt-chart/26ed0cdc3e4819df0c78d9f924d8bd0.png' />
 <meta name="twitter:title" content="Gantt Chart">
 <meta name="twitter:description" content=""><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/Group_website/p/gantt-chart/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2.png' />
+    <meta name="twitter:image" content='http://localhost:1313/Group_website/p/gantt-chart/26ed0cdc3e4819df0c78d9f924d8bd0.png' />
   
 
 
@@ -232,10 +232,10 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/Group_website/p/gantt-chart/">
-                <img src="/Group_website/p/gantt-chart/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2_hu15540282299919801373.png"
-                        srcset="/Group_website/p/gantt-chart/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2_hu15540282299919801373.png 800w, /Group_website/p/gantt-chart/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2_hu5854139679831096810.png 1600w"
+                <img src="/Group_website/p/gantt-chart/26ed0cdc3e4819df0c78d9f924d8bd0_hu15718474142380520916.png"
+                        srcset="/Group_website/p/gantt-chart/26ed0cdc3e4819df0c78d9f924d8bd0_hu15718474142380520916.png 800w, /Group_website/p/gantt-chart/26ed0cdc3e4819df0c78d9f924d8bd0_hu10910325773371233176.png 1600w"
                         width="800" 
-                        height="450" 
+                        height="130" 
                         loading="lazy"
                         alt="Featured image of post Gantt Chart" />
                 
@@ -278,7 +278,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-03-30</time>
+                <time class="article-time--published">2025-04-20</time>
             </div>
         
 
@@ -308,7 +308,21 @@
     <section class="article-content">
     
     
-    
+    <p><img src="/Group_website/p/gantt-chart/26ed0cdc3e4819df0c78d9f924d8bd0.png"
+	width="1937"
+	height="315"
+	srcset="/Group_website/p/gantt-chart/26ed0cdc3e4819df0c78d9f924d8bd0_hu2269474517029127239.png 480w, /Group_website/p/gantt-chart/26ed0cdc3e4819df0c78d9f924d8bd0_hu14884629104750304152.png 1024w"
+	loading="lazy"
+	
+		alt="Gantt Chart"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="614"
+		data-flex-basis="1475px"
+	
+></p>
+
 </section>
 
 
@@ -551,83 +565,7 @@
 
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gantt Chart Example</title>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-        google.charts.load('current', { packages: ['gantt'] });
-        google.charts.setOnLoadCallback(drawChart);
 
-        function drawChart() {
-            var data = new google.visualization.DataTable();
-            data.addColumn('string', 'Task ID');
-            data.addColumn('string', 'Task Name');
-            data.addColumn('date', 'Start Date');
-            data.addColumn('date', 'End Date');
-            data.addColumn('number', 'Duration');
-            data.addColumn('number', 'Percent Complete');
-            data.addColumn('string', 'Dependencies');
-
-            data.addRows([
-                ['1', 'DengQI', new Date(2025, 2, 18), new Date(2025, 2, 22), null, 100, null],
-                ['2', 'ChenziHENG', new Date(2025, 2, 23), new Date(2025, 3, 5), null, 60, '1'],
-                ['3', 'YuchuanYING', new Date(2025, 3, 6), new Date(2025, 3, 10), null, 0, '2'],
-                ['4', 'YangziQIANG', new Date(2025, 3, 11), new Date(2025, 3, 12), null, 0, '3']
-            ]);
-
-            var options = {
-                height: 250,
-                gantt: {
-                    trackHeight: 30
-                }
-            };
-
-            var chart = new google.visualization.Gantt(document.getElementById('gantt_chart'));
-            chart.draw(data, options);
-        }
-
-        function toggleFullScreen() {
-            var container = document.getElementById('gantt_chart_container');
-            if (!document.fullscreenElement) {
-                container.requestFullscreen().catch(err => {
-                    console.error("Error attempting to enable full-screen mode:", err.message);
-                });
-                container.style.width = "100vw";
-                container.style.height = "100vh";
-            } else {
-                document.exitFullscreen();
-                container.style.width = "360px";
-                container.style.height = "180px";
-            }
-        }
-    </script>
-    <style>
-        #gantt_chart_container {
-            position: fixed;
-            bottom: 5px;
-            right: 5px;
-            width: 360px;
-            height: 180px;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            z-index: 9999;
-            padding: 10px;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <div id="gantt_chart_container" onclick="toggleFullScreen()">
-        <div id="gantt_chart" style="width: 100%; height: 100%;"></div>
-    </div>
-</body>
-</html>
 
     </body>
 </html>

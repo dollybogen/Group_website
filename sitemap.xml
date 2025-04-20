@@ -3,15 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/Group_website/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/categories/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/categories/demo/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/p/front-end-demo/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/categories/gantt/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/p/gantt-chart/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/post/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/categories/requirements/</loc>
+    <lastmod>2025-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/p/requirements-analysis-document/</loc>
+    <lastmod>2025-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/categories/bluetooth/</loc>
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/p/bluetooth-front-end-demo-implementation/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/Group_website/categories/</loc>
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/p/change-of-demand-summary-diagram/</loc>
@@ -21,9 +42,6 @@
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/categories/plan/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/Group_website/post/</loc>
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/categories/process/</loc>
@@ -39,9 +57,6 @@
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/p/website-update-log-2/</loc>
-    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/Group_website/categories/requirements/</loc>
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/p/ui-requirement-components/</loc>

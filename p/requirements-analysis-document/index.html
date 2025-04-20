@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/Group_website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Group_website/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1. Overview This requirements analysis document aims to provide a detailed description of the functionalities and interaction flows of a medical rehabilitation system. The system consists of four main modules: User Interface Module (UI Group), System Core Module (System Group), Data Processing Module (Data Group), and Data Analysis Module (Analysis Group). These modules work together through clear interaction relationships to provide efficient and secure services for patients, doctors, and administrator doctors.">
+<title>Requirements Analysis Document</title>
+
+<link rel='canonical' href='http://localhost:1313/Group_website/p/requirements-analysis-document/'>
+
+<link rel="stylesheet" href="/Group_website/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Requirements Analysis Document">
+<meta property='og:description' content="1. Overview This requirements analysis document aims to provide a detailed description of the functionalities and interaction flows of a medical rehabilitation system. The system consists of four main modules: User Interface Module (UI Group), System Core Module (System Group), Data Processing Module (Data Group), and Data Analysis Module (Analysis Group). These modules work together through clear interaction relationships to provide efficient and secure services for patients, doctors, and administrator doctors.">
+<meta property='og:url' content='http://localhost:1313/Group_website/p/requirements-analysis-document/'>
+<meta property='og:site_name' content='PINKPIG'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-04-19T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/Group_website/p/requirements-analysis-document/82a91b497a6f922b0aff3b2d50559b5.png' />
+<meta name="twitter:title" content="Requirements Analysis Document">
+<meta name="twitter:description" content="1. Overview This requirements analysis document aims to provide a detailed description of the functionalities and interaction flows of a medical rehabilitation system. The system consists of four main modules: User Interface Module (UI Group), System Core Module (System Group), Data Processing Module (Data Group), and Data Analysis Module (Analysis Group). These modules work together through clear interaction relationships to provide efficient and secure services for patients, doctors, and administrator doctors."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/Group_website/p/requirements-analysis-document/82a91b497a6f922b0aff3b2d50559b5.png' />
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/Group_website/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/Group_website/img/avatar_hu476149702306619662.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/Group_website">PINKPIG</a></h1>
+            <h2 class="site-description">Welcome to our website</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/dollybogen/Group_website'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/Group_website/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/Group_website/member/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Member</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/Group_website/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/Group_website/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/Group_website/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Link</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#21-patient">2.1 Patient</a></li>
+    <li><a href="#22-doctor">2.2 Doctor</a></li>
+    <li><a href="#23-admindoctor-administrator-doctor">2.3 AdminDoctor (Administrator Doctor)</a></li>
+  </ol>
+
+  <ol>
+    <li><a href="#31-ui-group-user-interface-module">3.1 UI Group (User Interface Module)</a>
+      <ol>
+        <li><a href="#functional-overview">Functional Overview</a></li>
+        <li><a href="#detailed-use-case-expansion">Detailed Use Case Expansion</a></li>
+      </ol>
+    </li>
+    <li><a href="#32-system-group-system-core-module">3.2 System Group (System Core Module)</a>
+      <ol>
+        <li><a href="#functional-overview-1">Functional Overview</a></li>
+        <li><a href="#detailed-use-case-expansion-1">Detailed Use Case Expansion</a></li>
+      </ol>
+    </li>
+    <li><a href="#33-data-group-data-processing-module">3.3 Data Group (Data Processing Module)</a>
+      <ol>
+        <li><a href="#functional-overview-2">Functional Overview</a></li>
+        <li><a href="#detailed-use-case-expansion-2">Detailed Use Case Expansion</a></li>
+      </ol>
+    </li>
+    <li><a href="#34-analysis-group-data-analysis-module">3.4 Analysis Group (Data Analysis Module)</a>
+      <ol>
+        <li><a href="#functional-overview-3">Functional Overview</a></li>
+        <li><a href="#detailed-use-case-expansion-3">Detailed Use Case Expansion</a></li>
+      </ol>
+    </li>
+  </ol>
+
+  <ol>
+    <li><a href="#data-flow-description">Data Flow Description</a></li>
+    <li><a href="#user-interaction-workflow">User Interaction Workflow</a></li>
+    <li><a href="#error-handling-mechanism">Error Handling Mechanism</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/Group_website/p/requirements-analysis-document/">
+                <img src="/Group_website/p/requirements-analysis-document/82a91b497a6f922b0aff3b2d50559b5_hu12928181711307477452.png"
+                        srcset="/Group_website/p/requirements-analysis-document/82a91b497a6f922b0aff3b2d50559b5_hu12928181711307477452.png 800w, /Group_website/p/requirements-analysis-document/82a91b497a6f922b0aff3b2d50559b5_hu16044654406138173943.png 1600w"
+                        width="800" 
+                        height="420" 
+                        loading="lazy"
+                        alt="Featured image of post Requirements Analysis Document" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/Group_website/categories/requirements/" >
+                Requirements
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/Group_website/p/requirements-analysis-document/">Requirements Analysis Document</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-04-19</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 5 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><img src="/Group_website/p/requirements-analysis-document/82a91b497a6f922b0aff3b2d50559b5.png"
+	width="1361"
+	height="714"
+	srcset="/Group_website/p/requirements-analysis-document/82a91b497a6f922b0aff3b2d50559b5_hu3439415539381848634.png 480w, /Group_website/p/requirements-analysis-document/82a91b497a6f922b0aff3b2d50559b5_hu12956404981001186430.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="190"
+		data-flex-basis="457px"
+	
+></p>
+<h1 id="1-overview">1. Overview
+</h1><p>This requirements analysis document aims to provide a detailed description of the functionalities and interaction flows of a medical rehabilitation system. The system consists of four main modules: User Interface Module (UI Group), System Core Module (System Group), Data Processing Module (Data Group), and Data Analysis Module (Analysis Group). These modules work together through clear interaction relationships to provide efficient and secure services for patients, doctors, and administrator doctors.</p>
+<hr>
+<h1 id="2-user-roles">2. User Roles
+</h1><h2 id="21-patient">2.1 Patient
+</h2><ul>
+<li><strong>Responsibilities</strong>: Use the system to register, log in, view real-time measurement data and feedback results, and adjust rehabilitation training plans based on doctor recommendations.</li>
+<li><strong>Permissions</strong>:
+<ul>
+<li>Access personal health data.</li>
+<li>Submit personal information and measurement data.</li>
+</ul>
+</li>
+</ul>
+<h2 id="22-doctor">2.2 Doctor
+</h2><ul>
+<li><strong>Responsibilities</strong>: Manage patient health information, view measurement data, and provide professional advice.</li>
+<li><strong>Permissions</strong>:
+<ul>
+<li>Access patient-related data.</li>
+<li>Edit patient basic information.</li>
+</ul>
+</li>
+</ul>
+<h2 id="23-admindoctor-administrator-doctor">2.3 AdminDoctor (Administrator Doctor)
+</h2><ul>
+<li><strong>Responsibilities</strong>: Manage doctor account information, maintain doctor data support within the system, and monitor system logs and operational status.</li>
+<li><strong>Permissions</strong>:
+<ul>
+<li>Full access to doctor and patient data.</li>
+<li>Modify system configurations and manage the database.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="3-functional-module-division">3. Functional Module Division
+</h1><h2 id="31-ui-group-user-interface-module">3.1 UI Group (User Interface Module)
+</h2><h3 id="functional-overview">Functional Overview
+</h3><p>The UI Group is responsible for providing the interface for user interaction with the system, including login, registration, patient management, measurement preparation, data display, and result feedback functions, ensuring a user-friendly and intuitive experience.</p>
+<h3 id="detailed-use-case-expansion">Detailed Use Case Expansion
+</h3><ul>
+<li>
+<p><strong>UC_Login</strong>:</p>
+<ul>
+<li><strong>Description</strong>: Enables patients or doctors to log into the system using a username and password.</li>
+<li><strong>Preconditions</strong>: The user already has an account.</li>
+<li><strong>Main Flow</strong>:
+<ol>
+<li>The user enters the username and password.</li>
+<li>The system verifies the credentials.</li>
+<li>Upon success, the user is redirected to their homepage.</li>
+</ol>
+</li>
+<li><strong>Error Handling</strong>:
+<ul>
+<li>Incorrect username or password: Prompt &ldquo;Username or password is incorrect, please re-enter.&rdquo;</li>
+<li>System unavailable: Prompt &ldquo;The system is temporarily unavailable, please try again later.&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>UC_Register</strong>:</p>
+<ul>
+<li><strong>Description</strong>: New users complete registration by filling in basic information.</li>
+<li><strong>Preconditions</strong>: None.</li>
+<li><strong>Main Flow</strong>:
+<ol>
+<li>The user accesses the registration page.</li>
+<li>Fills in basic information such as name, contact details, and email.</li>
+<li>The system verifies the completeness and uniqueness of the information.</li>
+<li>After successful registration, the user is notified of completion.</li>
+</ol>
+</li>
+<li><strong>Error Handling</strong>:
+<ul>
+<li>Incomplete information: Prompt &ldquo;Please fill in all required fields.&rdquo;</li>
+<li>Email already registered: Prompt &ldquo;This email is already registered, please use another email.&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>UC_PatientManage</strong>:</p>
+<ul>
+<li><strong>Description</strong>: Doctors create or search for patient basic information.</li>
+<li><strong>Preconditions</strong>: The doctor is logged into the system.</li>
+<li><strong>Main Flow</strong>:
+<ol>
+<li>The doctor selects &ldquo;Create Patient&rdquo; or &ldquo;Search Patient.&rdquo;</li>
+<li>If creating a patient, fills in the patient&rsquo;s basic information and saves it.</li>
+<li>If searching for a patient, enters keywords (e.g., name or ID) and views the search results.</li>
+</ol>
+</li>
+<li><strong>Error Handling</strong>:
+<ul>
+<li>No search results: Prompt &ldquo;No related patient information found.&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>UC_PrepareMeasure</strong>:</p>
+<ul>
+<li><strong>Description</strong>: Provides animated guidance to help patients correctly wear sensors and initialize the device.</li>
+<li><strong>Preconditions</strong>: The patient is logged into the system.</li>
+<li><strong>Main Flow</strong>:
+<ol>
+<li>The patient accesses the measurement preparation page.</li>
+<li>The page plays an animation to guide the patient in correctly wearing the sensor.</li>
+<li>The system calls the &ldquo;Initialize Sensor&rdquo; interface to initialize the device.</li>
+<li>After initialization is complete, the patient is prompted to start the measurement.</li>
+</ol>
+</li>
+<li><strong>Error Handling</strong>:
+<ul>
+<li>Device initialization failure: Prompt &ldquo;Device initialization failed, please check the connection.&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>UC_RealTimeDisplay</strong>:</p>
+<ul>
+<li><strong>Description</strong>: Displays the real-time joint angle status of the patient.</li>
+<li><strong>Preconditions</strong>: The measurement device has been initialized and started collecting data.</li>
+<li><strong>Main Flow</strong>:
+<ol>
+<li>The system calls the &ldquo;Get Streaming Data&rdquo; interface to obtain real-time data.</li>
+<li>The data is processed and displayed in chart form.</li>
+<li>The patient can view their joint angle changes in real-time.</li>
+</ol>
+</li>
+<li><strong>Error Handling</strong>:
+<ul>
+<li>Data stream interruption: Prompt &ldquo;Data stream interrupted, please check the device connection.&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>UC_ResultFeedback</strong>:</p>
+<ul>
+<li><strong>Description</strong>: Displays measurement results and professional advice from the doctor to the patient.</li>
+<li><strong>Preconditions</strong>: Measurement is complete, and analysis results have been generated.</li>
+<li><strong>Main Flow</strong>:
+<ol>
+<li>The system calls the &ldquo;Request Analysis&rdquo; interface to request analysis results.</li>
+<li>After loading the analysis results, they are displayed on the page.</li>
+<li>The doctor provides rehabilitation suggestions based on the results.</li>
+</ol>
+</li>
+<li><strong>Error Handling</strong>:
+<ul>
+<li>Analysis result loading failure: Prompt &ldquo;Result loading failed, please try again later.&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>UC_DoctorInfoManage</strong>:</p>
+<ul>
+<li><strong>Description</strong>: Administrator doctors edit and manage doctor information.</li>
+<li><strong>Preconditions</strong>: The administrator doctor is logged into the system.</li>
+<li><strong>Main Flow</strong>:
+<ol>
+<li>The administrator doctor accesses the information management page.</li>
+<li>Selects the doctor information that needs editing.</li>
+<li>Modifies the information and saves it.</li>
+</ol>
+</li>
+<li><strong>Error Handling</strong>:
+<ul>
+<li>Insufficient permissions: Prompt &ldquo;You do not have permission to perform this operation.&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="32-system-group-system-core-module">3.2 System Group (System Core Module)
+</h2><h3 id="functional-overview-1">Functional Overview
+</h3><p>The System Group serves as the core part of the system, coordinating interactions between different modules, including but not limited to data storage, logging, data collection, and uploading operations, ensuring the stable operation and efficient data processing capability of the system.</p>
+<h3 id="detailed-use-case-expansion-1">Detailed Use Case Expansion
+</h3><ul>
+<li><strong>UC_CICD</strong>: Data support services for doctors.</li>
+<li><strong>UC_API</strong>: Secure storage of user information.</li>
+<li><strong>UC_Log</strong>: Monitoring and recording system logs.</li>
+<li><strong>UC_UItoDataCollect</strong>: Transition to data collection after measurement preparation.</li>
+<li><strong>UC_UItoDataUpload</strong>: Uploading real-time data to the server.</li>
+<li><strong>UC_UItoDBManage</strong>: Synchronizing analysis results to the database.</li>
+<li><strong>UC_UItoAnalysis</strong>: Connecting feedback pages with analysis modules.</li>
+</ul>
+<hr>
+<h2 id="33-data-group-data-processing-module">3.3 Data Group (Data Processing Module)
+</h2><h3 id="functional-overview-2">Functional Overview
+</h3><p>The Data Group focuses on data collection, cleaning, storage, and management, ensuring that the data entering the system is clean and useful.</p>
+<h3 id="detailed-use-case-expansion-2">Detailed Use Case Expansion
+</h3><ul>
+<li><strong>UC_DataCollect</strong>: Collecting data from sensors.</li>
+<li><strong>UC_DataUpload</strong>: Uploading collected data to the server.</li>
+<li><strong>UC_DataClean</strong>: Cleaning and interpolating raw data.</li>
+<li><strong>UC_CRUD</strong>: Basic database operations (Create, Read, Update, Delete).</li>
+<li><strong>UC_DBManage</strong>: Managing database information to ensure consistency and security.</li>
+</ul>
+<hr>
+<h2 id="34-analysis-group-data-analysis-module">3.4 Analysis Group (Data Analysis Module)
+</h2><h3 id="functional-overview-3">Functional Overview
+</h3><p>The Analysis Group is dedicated to conducting in-depth analysis of sensor data, identifying deviations and anomalies, and generating structured feedback results.</p>
+<h3 id="detailed-use-case-expansion-3">Detailed Use Case Expansion
+</h3><ul>
+<li><strong>UC_ReceiveData</strong>: Receiving cleaned sensor data.</li>
+<li><strong>UC_Analysis</strong>: Performing deviation analysis and anomaly tagging.</li>
+<li><strong>UC_ResultReturn</strong>: Returning analyzed results to the feedback page.</li>
+</ul>
+<hr>
+<h1 id="4-system-integration-and-workflow">4. System Integration and Workflow
+</h1><h2 id="data-flow-description">Data Flow Description
+</h2><p>The system revolves around the flow of data, from sensor-wearing by patients to data collection, uploading, cleaning, analysis, and finally feeding back the results to patients and doctors.</p>
+<h2 id="user-interaction-workflow">User Interaction Workflow
+</h2><ul>
+<li><strong>Patient Perspective</strong>: Register/login → Prepare measurements → View real-time data → Receive professional advice.</li>
+<li><strong>Doctor Perspective</strong>: Manage patients → Use data support services → Provide rehabilitation guidance.</li>
+</ul>
+<h2 id="error-handling-mechanism">Error Handling Mechanism
+</h2><p>The system incorporates multiple error handling mechanisms, providing clear prompts and minimizing impact when issues arise, covering scenarios like user input errors, device malfunctions, and data transmission interruptions.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/Group_website/p/website-update-log-2/">
+        
+        
+            <div class="article-image">
+                <img src="/Group_website/p/website-update-log-2/02227-2559485279-best-.70124631e7ea7fe023c4c629bb686782_hu16614221168786284215.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Internal Requirements Analysis Document"
+                        data-key="Website update log-2" 
+                        data-hash="md5-cBJGMefqf&#43;AjxMYpu2hngg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Internal Requirements Analysis Document</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/Group_website/p/module-wise-requirement-analysis-documentation/">
+        
+        
+            <div class="article-image">
+                <img src="/Group_website/p/module-wise-requirement-analysis-documentation/%E5%9B%BE%E7%89%876.68930e17e50fced1e06cc5de31f1bc44_hu11736733398232666333.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Module-wise requirement analysis  documentation"
+                        data-key="Module-wise requirement analysis  documentation" 
+                        data-hash="md5-aJMOF&#43;UPztHgbMXeMfG8RA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Module-wise requirement analysis  documentation</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/Group_website/p/analysis-of-patient-ui-requirements/">
+        
+        
+            <div class="article-image">
+                <img src="/Group_website/p/analysis-of-patient-ui-requirements/%E5%9B%BE%E7%89%871.54f2b4990b1ef5ff7a40bd939d79b03a_hu13557071337585546783.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Analysis of Patient UI Requirements"
+                        data-key="Analysis of Patient UI Requirements" 
+                        data-hash="md5-VPK0mQse9f96QL2TnXmwOg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Analysis of Patient UI Requirements</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 dolly
+    </section>
+    
+    <section class="powerby">
+        
+            2777619715@qq.com <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/Group_website/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+<meting-js
+	server="netease"
+	type="playlist"
+    	fixed=true 
+    	lrc-type=0
+	id="13014257623">
+</meting-js>
+
+<script>
+    ap = null
+    Object.defineProperty(document.querySelector('meting-js'),"aplayer",{
+        set: function(aplayer) {
+            ap=aplayer
+            ready();
+        }
+    });
+    isRecover = false;
+    function ready(){
+        ap.on('canplay', function () {
+            if(!isRecover){
+                if(localStorage.getItem("musicIndex") != null){
+                    musicIndex = localStorage.getItem("musicIndex");
+                    musicTime = localStorage.getItem("musicTime");
+                    if(ap.list.index != musicIndex){
+                        ap.list.switch(musicIndex);
+                    }else{
+                        ap.seek(musicTime);
+                        ap.play();
+                        localStorage.clear();
+                        isRecover = true;
+                    }
+                }else{
+                    isRecover = true;
+                }
+            }
+        });
+    }
+    window.onbeforeunload = function(event) {
+        if(!ap.audio.paused){
+            musicIndex = ap.list.index;
+            musicTime = ap.audio.currentTime;
+            localStorage.setItem("musicIndex",musicIndex);
+            localStorage.setItem("musicTime",musicTime);
+        }
+    };
+</script>
+
+
+
+
+
+
+    </body>
+</html>
