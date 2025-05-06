@@ -7,52 +7,75 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>dolly</copyright>
-        <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>UI update</title>
+        <link>http://localhost:1313/Group_website/p/ui-update/</link>
+        <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/ui-update/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/ui-update/3774ea20720993cc966bb4393a2daab.png" alt="Featured image of post UI update" /&gt;&lt;h3 id=&#34;add-report-queries-based-on-datetypesummary-improve-data-display-add-standard-data-and-differences&#34;&gt;Add report queries based on date/type/summary, improve data display, add standard data, and differences
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update/3774ea20720993cc966bb4393a2daab.png&#34;
+	width=&#34;2543&#34;
+	height=&#34;1332&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update/3774ea20720993cc966bb4393a2daab_hu15204855985876974455.png 480w, http://localhost:1313/Group_website/Group_website/p/ui-update/3774ea20720993cc966bb4393a2daab_hu14302026510956788068.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;190&#34;
+		data-flex-basis=&#34;458px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;added-data-display-on-bluetooth-interface-and-doctor-evaluation-system&#34;&gt;Added data display on Bluetooth interface and doctor evaluation system
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update/QQ_1746505158349.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1020&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update/QQ_1746505158349_hu10221687652014861763.png 480w, http://localhost:1313/Group_website/Group_website/p/ui-update/QQ_1746505158349_hu1995356426332660512.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;451px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;modified-the-api-documentation-and-sent-it-to-the-system-team&#34;&gt;Modified the API documentation and sent it to the system team
+&lt;/h3&gt;</description>
+        </item>
+        <item>
         <title>Front end demo</title>
         <link>http://localhost:1313/Group_website/p/front-end-demo/</link>
         <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/Group_website/p/front-end-demo/</guid>
-        <description>&lt;img src="http://localhost:1313/Group_website/p/front-end-demo/QQ_1745143860448.png" alt="Featured image of post Front end demo" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143860448.png&#34;
-	width=&#34;1818&#34;
-	height=&#34;927&#34;
-	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143860448_hu9255801535350802987.png 480w, http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143860448_hu10742934478928529757.png 1024w&#34;
+        <description>&lt;img src="http://localhost:1313/Group_website/QQ_1745143860448.png" alt="Featured image of post Front end demo" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/QQ_1745143860448.png&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;示例图片&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;196&#34;
-		data-flex-basis=&#34;470px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143869274.png&#34;
-	width=&#34;1814&#34;
-	height=&#34;931&#34;
-	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143869274_hu4017677656642934862.png 480w, http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143869274_hu16307801681182110871.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/QQ_1745143869274.png&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;示例图片&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;194&#34;
-		data-flex-basis=&#34;467px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143893329.png&#34;
-	width=&#34;1706&#34;
-	height=&#34;918&#34;
-	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143893329_hu4287249477286395434.png 480w, http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143893329_hu423794937117860639.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/QQ_1745143893329.png&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;示例图片&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;185&#34;
-		data-flex-basis=&#34;446px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143912461.png&#34;
@@ -69,32 +92,24 @@
 		data-flex-basis=&#34;499px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143935887.png&#34;
-	width=&#34;1800&#34;
-	height=&#34;924&#34;
-	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143935887_hu4176933709603451634.png 480w, http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143935887_hu4369974991018109285.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/QQ_1745143935887.png&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;示例图片&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;194&#34;
-		data-flex-basis=&#34;467px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143949071.png&#34;
-	width=&#34;1805&#34;
-	height=&#34;926&#34;
-	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143949071_hu6715576763168760886.png 480w, http://localhost:1313/Group_website/Group_website/p/front-end-demo/QQ_1745143949071_hu14018051635100482000.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/QQ_1745143949071.png&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;示例图片&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;194&#34;
-		data-flex-basis=&#34;467px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
@@ -664,7 +679,7 @@
         <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/Group_website/p/ui-requirement-components/</guid>
-        <description>&lt;img src="http://localhost:1313/Group_website/p/ui-requirement-components/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2.png" alt="Featured image of post UI Requirement Components" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;./%e6%82%a3%e8%80%85%e5%92%8c%e5%8c%bb%e6%8a%a4%e9%9c%80%e6%b1%82%282%29.xlsx&#34; &gt;Click to download Excel file&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/Group_website/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2.png" alt="Featured image of post UI Requirement Components" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;./%e6%82%a3%e8%80%85%e5%92%8c%e5%8c%bb%e6%8a%a4%e9%9c%80%e6%b1%82%282%29.xlsx&#34; &gt;Click to download Excel file&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -852,7 +867,7 @@
         <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/Group_website/p/website-update-log-1/</guid>
-        <description>&lt;img src="http://localhost:1313/Group_website/p/website-update-log-1/e7037b88f726314190e4c31d32139470245f14a1.png" alt="Featured image of post Website update log-1" /&gt;&lt;p&gt;Replace all text on the website with Chinese&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/Group_website/e7037b88f726314190e4c31d32139470245f14a1.png" alt="Featured image of post Website update log-1" /&gt;&lt;p&gt;Replace all text on the website with Chinese&lt;/p&gt;
 &lt;p&gt;Add Gantt chart in the bottom right corner, click to enlarge&lt;/p&gt;
 &lt;p&gt;Upload two documents: Project Use Case Diagram and Module Division, and Analysis of Patient UI Requirements&lt;/p&gt;
 &lt;p&gt;Added team member introduction, click on the details of the team members on the member page to view&lt;/p&gt;
@@ -935,7 +950,7 @@ View all past measurement records.&lt;/p&gt;
         <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/Group_website/p/ui-design-milestone-plan/</guid>
-        <description>&lt;img src="http://localhost:1313/Group_website/p/ui-design-milestone-plan/%E7%8F%8A%E7%91%9A%E5%AE%AB%E5%BF%83%E6%B5%B7-111411626.png" alt="Featured image of post Project Use Case Diagram and Module Division" /&gt;&lt;h1 id=&#34;project-milestone-plan&#34;&gt;Project Milestone Plan
+        <description>&lt;img src="http://localhost:1313/Group_website/%E7%8F%8A%E7%91%9A%E5%AE%AB%E5%BF%83%E6%B5%B7-111411626.png" alt="Featured image of post Project Use Case Diagram and Module Division" /&gt;&lt;h1 id=&#34;project-milestone-plan&#34;&gt;Project Milestone Plan
 &lt;/h1&gt;&lt;h2 id=&#34;milestone-1-requirement-definition-and-framework-design-1-week&#34;&gt;Milestone 1: Requirement Definition and Framework Design (1 week)
 &lt;/h2&gt;&lt;h3 id=&#34;core-task&#34;&gt;Core Task:
 &lt;/h3&gt;&lt;ul&gt;
@@ -1107,7 +1122,7 @@ View all past measurement records.&lt;/p&gt;
         <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/Group_website/p/name_list/</guid>
-        <description>&lt;img src="http://localhost:1313/Group_website/p/name_list/bfa716fb67d4d01aae4393a7de1d4effc73b6ba2.png" alt="Featured image of post Member list" /&gt;&lt;p&gt;组员： 21220121陈子恒（组长） 21221128应宇椽 21220415杨子强 55220314邓琦&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/Group_website/p/name_list/02227-2559485279-best-.png" alt="Featured image of post Member list" /&gt;&lt;p&gt;组员： 21220121陈子恒（组长） 21221128应宇椽 21220415杨子强 55220314邓琦&lt;/p&gt;
 </description>
         </item>
         <item>

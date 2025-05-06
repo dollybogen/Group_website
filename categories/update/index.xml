@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Update on PINKPIG</title>
+        <link>http://localhost:1313/Group_website/categories/update/</link>
+        <description>Recent content in Update on PINKPIG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>dolly</copyright>
+        <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/update/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>UI update</title>
+        <link>http://localhost:1313/Group_website/p/ui-update/</link>
+        <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/ui-update/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/ui-update/3774ea20720993cc966bb4393a2daab.png" alt="Featured image of post UI update" /&gt;&lt;h3 id=&#34;add-report-queries-based-on-datetypesummary-improve-data-display-add-standard-data-and-differences&#34;&gt;Add report queries based on date/type/summary, improve data display, add standard data, and differences
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update/3774ea20720993cc966bb4393a2daab.png&#34;
+	width=&#34;2543&#34;
+	height=&#34;1332&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update/3774ea20720993cc966bb4393a2daab_hu15204855985876974455.png 480w, http://localhost:1313/Group_website/Group_website/p/ui-update/3774ea20720993cc966bb4393a2daab_hu14302026510956788068.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;190&#34;
+		data-flex-basis=&#34;458px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;added-data-display-on-bluetooth-interface-and-doctor-evaluation-system&#34;&gt;Added data display on Bluetooth interface and doctor evaluation system
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update/QQ_1746505158349.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1020&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update/QQ_1746505158349_hu10221687652014861763.png 480w, http://localhost:1313/Group_website/Group_website/p/ui-update/QQ_1746505158349_hu1995356426332660512.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;451px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;modified-the-api-documentation-and-sent-it-to-the-system-team&#34;&gt;Modified the API documentation and sent it to the system team
+&lt;/h3&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

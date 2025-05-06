@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>dolly</copyright>
-        <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Update</title>
+        <link>http://localhost:1313/Group_website/categories/update/</link>
+        <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/categories/update/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Demo</title>
         <link>http://localhost:1313/Group_website/categories/demo/</link>
         <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>

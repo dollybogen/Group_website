@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/Group_website/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/categories/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/post/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/p/ui-update/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/categories/update/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/categories/demo/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
@@ -18,9 +27,6 @@
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/p/gantt-chart/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/Group_website/post/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/categories/requirements/</loc>
