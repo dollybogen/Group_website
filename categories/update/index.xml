@@ -7,7 +7,84 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>dolly</copyright>
-        <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/update/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/Group_website/categories/update/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>UI update-2</title>
+        <link>http://localhost:1313/Group_website/p/ui-update-2/</link>
+        <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Group_website/p/ui-update-2/</guid>
+        <description>&lt;img src="http://localhost:1313/Group_website/p/ui-update-2/4.png" alt="Featured image of post UI update-2" /&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;API Documentation&lt;/strong&gt;: Major revisions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pagination&lt;/strong&gt;: Optimized logic to load new data when requesting the next page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update-2/4.png&#34;
+	width=&#34;1850&#34;
+	height=&#34;927&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update-2/4_hu1507701453062531901.png 480w, http://localhost:1313/Group_website/Group_website/p/ui-update-2/4_hu2324103088124074653.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;478px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Admin Panel Updates&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Added CRUD operations for doctors, patients, and doctor-patient relationships.&lt;/li&gt;
+&lt;li&gt;Supports multi-keyword search.&lt;/li&gt;
+&lt;li&gt;Added a &amp;ldquo;Back&amp;rdquo; button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update-2/2.png&#34;
+	width=&#34;1850&#34;
+	height=&#34;927&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update-2/2_hu6817293961726798602.png 480w, http://localhost:1313/Group_website/Group_website/p/ui-update-2/2_hu3958632512569866409.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;478px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Bluetooth Updates&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Data upload now requires two collection attempts.&lt;/li&gt;
+&lt;li&gt;Removed connection restrictions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update-2/1.png&#34;
+	width=&#34;1850&#34;
+	height=&#34;927&#34;
+	srcset=&#34;http://localhost:1313/Group_website/Group_website/p/ui-update-2/1_hu10521769935796567952.png 480w, http://localhost:1313/Group_website/Group_website/p/ui-update-2/1_hu4317863448259813559.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;478px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Report Categories&lt;/strong&gt;: Now includes three base categories + one customizable category.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Backend Simulation&lt;/strong&gt;: Completed local testing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>UI update</title>
         <link>http://localhost:1313/Group_website/p/ui-update/</link>
         <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
