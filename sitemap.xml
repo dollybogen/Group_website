@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/Group_website/</loc>
-    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/categories/</loc>
-    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/categories/final-code/</loc>
+    <lastmod>2025-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Group_website/p/final-code/</loc>
+    <lastmod>2025-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/post/</loc>
-    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Group_website/p/ui-update-2/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
